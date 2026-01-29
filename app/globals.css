@@ -1,0 +1,41 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.marquee-track {
+  width: max-content;
+  animation: checky-marquee linear infinite;
+  animation-duration: 35s;
+}
+
+@keyframes checky-marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes checky-marquee-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes checky-marquee-right {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+.marquee-left {
+  animation-name: checky-marquee-left;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+.marquee-right {
+  animation-name: checky-marquee-right;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
