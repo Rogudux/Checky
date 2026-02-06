@@ -21,7 +21,7 @@ export default function HeroMarquee({
         <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-gradient-to-l from-checky-bg to-transparent z-10" />
 
       <div
-        className="flex w-max items-center gap-6"
+        className="flex w-max items-center gap-6" 
         style={{
           animation: `checky-marquee ${speedSeconds}s linear infinite`,
         }}
@@ -29,7 +29,7 @@ export default function HeroMarquee({
         {track.map((s, idx) => (
           <div
             key={`${s.src}-${idx}`}
-            className="relative h-[180px] w-[300px] md:h-[300px] md:w-[230px] shrink-0"
+            className="relative h-[200px] w-[120px] md:h-[300px] md:w-[230px] shrink-0"
           >
             <Image
               src={s.src}

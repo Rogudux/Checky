@@ -189,9 +189,8 @@ export default function Home() {
               href={waLink(baseMsg)}
               target="_blank"
               rel="noopener noreferrer"
-className="inline-flex items-center gap-2 rounded-full border border-checky-border bg-white px-10 py-1 font-semibold hover:border-checky-green"
+              className="inline-flex items-center gap-2 rounded-full border border-checky-border bg-white px-10 py-1 font-semibold hover:border-checky-green text-center"
             >
-              <Image src="/icons/whatsappNegro.svg" alt="WhatsApp" width={18} height={18} /> Solicitar info por WhatsApp
 
             </a>
           </div>
