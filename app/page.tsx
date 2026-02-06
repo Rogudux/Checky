@@ -103,7 +103,7 @@ const plans = [
     price: 700,
     period: "al mes",
     badge: "Para crecer en serio",
-    branches: "10 sucursales",
+    branches: "8 sucursales",
     features: [
       "Clientes ilimitados",
       "Formulario de recoleccion de información",
