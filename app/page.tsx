@@ -189,9 +189,13 @@ export default function Home() {
               href={waLink(baseMsg)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 rounded-full border border-checky-border bg-white px-10 py-1 font-semibold hover:border-checky-green text-center"
+              className="inline-flex w-full items-center justify-center gap-3 rounded-full bg-white px-6 py-3 font-semibold hover:opacity-90 md:w-auto"
+              // className="inline-flex items-center gap-2 rounded-full border border-checky-border bg-white px-10 py-1 font-semibold hover:border-checky-green "
+
             >
 
+             <Image src="/icons/whatsappNegro.svg" alt="WhatsApp" width={16} height={16} />
+                Escribir por WhatsApp
             </a>
           </div>
 
@@ -290,7 +294,7 @@ export default function Home() {
             "No se necesitan cartones. Ya no se pierden: todo se guarda en el teléfono.",
           ],[
             "Notificaciones geolocalizadas",
-            "Atrae más clientes justo cuando están a 1 km de tu sucursal.",
+            "Atrae más clientes justo cuando están a 1 km o menos de tu sucursal.",
           ],
           [
             "Fidelizas a tus clientes",
@@ -345,7 +349,7 @@ export default function Home() {
     </div>
 
     {/* Card 2 – centro (principal) */}
-   <div className="absolute left-1/2 top-1/2 z-10 w-[520px] -translate-x-1/2 -translate-y-1/2 rounded-3xl bg-white p-1 shadow-lg ring-1 ring-black/5">
+   <div className="absolute left-1/2 top-1/2 z-10 w-[455px] -translate-x-1/2 -translate-y-1/2 rounded-3xl bg-white p-1 shadow-lg ring-1 ring-black/5">
   <div className="relative aspect-[4/1] w-full overflow-hidden rounded-2xl bg-white">
     <Image
       src="/images/hero/notificacion.webp"
