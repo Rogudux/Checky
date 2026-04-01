@@ -64,7 +64,7 @@ const plans = [
   {
     id: "basico",
     name: "Básico",
-    price: 350,
+    price: 380,
     period: "al mes",
     badge: "Ideal para empezar",
     branches: "1 sucursal",
