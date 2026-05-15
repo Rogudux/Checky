@@ -15,6 +15,12 @@ module.exports = {
           muted: "#6B7280",
           border: "#E5E7EB",
         },
+        "loyalty-accent": "#7AC940",
+        "tickets-accent": "#7C3AED",
+        "tickets-bg": "#0F0A1E",
+      },
+      fontFamily: {
+        display: ["var(--font-instrument-serif)", "Georgia", "serif"],
       },
     },
   },
